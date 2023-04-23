@@ -3,7 +3,7 @@ function ifPalindrome(num){
         let rev=0;
         let Num = n;
         while(Num!==0){
-        rev=(rev*1)+(Num%10);
+        rev=(rev*10)+(Num%10);
         //console.log( "rev:", rev); 
         Num = Math.floor(Num/10);
         //console.log(Num); 
@@ -13,3 +13,5 @@ function ifPalindrome(num){
     (rev===n)?console.log('Palindrome'):console.log('Not Palindrome');
         
     }
+
+    ifPalindrome(12321);
