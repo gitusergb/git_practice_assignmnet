@@ -1,7 +1,7 @@
 function ifPrime(num) {
     let c=0;
          for(let i=1;i<=num;i++){
-             if(num%i!=0){
+             if(num%i===0){
              c++;
              }
          }
@@ -15,4 +15,3 @@ function ifPrime(num) {
   
   let n=10;
   ifPrime(n);
-  
